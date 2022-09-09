@@ -10,25 +10,51 @@
     <form action="">
         <!-- imput tipo text  -->
         <p>
-            <input type="text" placeholder="Ingrese su Nombre">
+            <input 
+                id="input-nombre"
+                value="pepe"
+                type="text" 
+                name="nombre" 
+                required 
+                disabled
+                placeholder="Ingrese su Nombre">
         </p>
         <!-- input type numer -->
         <p>
-            <input type="number" placeholder="Ingrese su edad" >
+            <input 
+                type="number" 
+                value="29"
+                name="edad" 
+                required 
+                readonly
+                placeholder="Ingrese su edad" >
         </p>
         <p>
-            <input type="email" placeholder="Ingrese su correo">
+            <input 
+                type="email" 
+                value="pepe@gmail.com"
+                required 
+                placeholder="Ingrese su correo">
         </p>
         <p>
-            <input type="password" placeholder="Ingrese su password">
+            <input 
+                type="password" 
+                value="123456"
+                name="password"
+                required 
+                placeholder="Ingrese su password">
         </p>
         <p>
-            <input type="date" placeholder="Ingrese su fecha de nac.">
+            <input 
+                type="date" 
+                value="2022/08/08"
+                required 
+                placeholder="Ingrese su fecha de nac.">
         </p>
         <p>
             <select name="" id="">
-                <option value="" disabled selected>Selecciona un curso</option>
-                <option value="curso-react">Curso de React</option>
+                <option value="" disabled >Selecciona un curso</option>
+                <option value="curso-react" selected>Curso de React</option>
                 <option value="curso-html">Curso de HTML</option>
                 <option value="curso-css">Curso de CSS</option>
                 <option value="curso-angular">Curso de Angular</option>
